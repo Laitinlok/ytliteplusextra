@@ -105,8 +105,8 @@ jobs:
       - name: Download YTLite .deb
         run: wget "https://github.com/dayanch96/YTLite/releases/download/v${{ inputs.ytlite_version }}/com.dvntm.ytlite_${{ inputs.ytlite_version }}_iphoneos-arm64.deb" --quiet --no-verbose -O ytlite.deb
 
-      - name: Downlosd YTShareSheetFix
-        run: wget "https://github.com/jkhsjdhjs/youtube-native-share/releases/download/v0.2.7/me.jkhsjdhjs.youtube-native-share_0.2.7_iphoneos-arm64.deb" --quiet --no-verbose -O ytsharesheetfix
+      - name: Downlosd YluTube Native Share .deb
+        run: wget "https://github.com/jkhsjdhjs/youtube-native-share/releases/download/v0.2.7/me.jkhsjdhjs.youtube-native-share_0.2.7_iphoneos-arm64.deb" --quiet --no-verbose -O youtube-native-share.deb
 
       - name: Clone Open in YouTube (Safari Extension)
         run: |
